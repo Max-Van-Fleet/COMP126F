@@ -223,5 +223,59 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  height: 13vh;
+}
+.social-links{
+  display: grid;
+  grid-template-columns: 7vw 7vw 7vw;
+  column-gap: 1vw;
+}
+.followUs{
+  grid-column: 1 / span 3;
+}
+.instagram{
+  background-image: url("../images/instagram.svg");
+  background-size: 5vw 10vh;
+  grid-column: 2;
+  width:5vw;
+  height: 10vh;
+  transition: all .35s ease;
+}
+.linkedin{
+  background-image: url("../images/linkedin.svg");
+  background-size: 5vw 10vh;
+  grid-column: 3;
+  width:5vw;
+  height: 10vh;
+  transition: all .35s ease;
+}
+.facebook{
+  background-image: url("../images/facebook.svg");
+  background-size: 5vw 10vh;
+  grid-column: 1;
+  width:5vw;
+  height: 10vh;
+  transition: all .35s ease;
+}
+.instagram:hover, .instagram:focus{
+  filter: invert(32%) sepia(50%) saturate(1930%) hue-rotate(292deg) brightness(86%) contrast(94%);
+  width:7vw;
+  height:12vh;
+  background-size: 7vw 12vh;
+}
+.facebook:hover{
+  filter: invert(39%) sepia(37%) saturate(2497%) hue-rotate(202deg) brightness(93%) contrast(107%);
+  width:7vw;
+  height:12vh;
+  background-size: 7vw 12vh;
+}
+.linkedin:hover{
+  filter: invert(34%) sepia(79%) saturate(6545%) hue-rotate(185deg) brightness(96%) contrast(101%);
+  width:7vw;
+  height:12vh;
+  background-size: 7vw 12vh;
+}
+@media (min-width: 600px) {
+
 }
