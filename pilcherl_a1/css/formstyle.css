@@ -1,0 +1,13 @@
+form{
+    margin-top: 60px;
+
+}
+body{
+    background-color: #fff;
+}
+input{
+    display: block;
+}
+select{
+    display: block;
+}
