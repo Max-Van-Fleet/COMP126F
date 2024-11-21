@@ -29,16 +29,18 @@
       </div>
     </nav>
   </header>
+  <h1>Let us Get You in Your Dream Home</h1>
+  <h3>Feel free to schedule and appointment or leave your contact information and we will get in contact with you</h3>
   <div class = contact-grid>
   <form method = "Post" action = "/">
     <label> Name
-    <input type="text" id = "name">
+    <input type="text" id = "name" required>
     </label>
-    <label> email
-        <input type="email" id = "name">
+    <label> Email
+        <input type="email" id = "name" required>
     </label>
-    <label> Phone Number
-        <input type="tel" id = "name">
+    <label> Phone Number(format:###-###-####)
+        <input type="tel" id = "name" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required  oninvalid="this.setCustomValidity('Enter a Valid Telephone Number')">
     </label>
     <label> Where Are You Looking To Buy A House?
         <select>
@@ -54,13 +56,13 @@
         </select>
     </label>
     <label>
-        Any Additional Information About What Type Of House You Are Looking For?
-        <input type ="text" id ="additional_information">
+      What are you looking for in your dream home?
+      <textarea id ="additional_information"></textarea>
     </label>
-    <input type="submit">Submit</input>
+    <button type="submit">Submit</button>
   </form>
 <!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1UgHR-1ZWgi-f_TaPzcWpXDRnyR6xqDT5F7o5vRIjKVCrrx2Rwhtiut566ve5ImIfnPRlVOgJg?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1UgHR-1ZWgi-f_TaPzcWpXDRnyR6xqDT5F7o5vRIjKVCrrx2Rwhtiut566ve5ImIfnPRlVOgJg?gv=true" class="calendar"></iframe>
 <!-- end Google Calendar Appointment Scheduling --> 
 </div>
 
