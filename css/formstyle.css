@@ -1,9 +1,13 @@
 h1{
+    text-align: center;
+    color: #228B22;
     margin-top: 80px;
     margin-left:2.5vw;
     margin-right:2.5vw;
 }
 h3{
+    text-align: center;
+    color: #228B22;
     margin-left:2.5vw;
     margin-right:2.5vw;
     margin-bottom: 10px;
@@ -56,10 +60,10 @@ button{
     margin-bottom: 1vh;
 } 
 button:hover{
-    background-color: #091a2b;
+    background-color: #228B22;
 }
 button:focus{
-    background-color: #091a2b;
+    background-color: #228B22;
 }
 label{
     font-size: 16pt;
