@@ -41,8 +41,8 @@
     <label> Email
         <input type="email" id = "name" required>
     </label>
-    <label> Phone Number(format:###-###-####)
-        <input type="tel" id = "name" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required  oninvalid="this.setCustomValidity('Enter a Valid Telephone Number')">
+    <label> Phone Number
+        <input type="tel" id = "name" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required  oninvalid="this.setCustomValidity('Enter a Valid Telephone Number format: ###-###-####')">
     </label>
     <label> Where Are You Looking To Buy A House?
         <select>
@@ -79,6 +79,14 @@
     </div>
   </div>
 </footer>
+<script>
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navLinks = document.querySelector('.nav-links');
+
+  mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
 
 </body>
 </html>
