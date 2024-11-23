@@ -30,6 +30,10 @@ iframe{
 }
 form{
     grid-column: 1;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 textarea{
     display: block;
@@ -39,8 +43,8 @@ textarea{
 @media (min-width: 768px)  {
 .contact-grid{
     display: grid;
-    grid-template-columns: 20vw  60vw;
-    gap: 5vw;
+    grid-template-columns: 22.5vw  60vw;
+    gap: 2.5vw;
     margin-left: 7.5vw;
     margin-right: 7.5vw;
 }
