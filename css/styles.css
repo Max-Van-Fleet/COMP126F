@@ -83,7 +83,7 @@ header {
   }
 
   .nav-links.active {
-    height: 20px;
+    height: auto;
   }
 
   .nav-links li {
