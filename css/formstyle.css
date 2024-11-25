@@ -1,13 +1,13 @@
 h1{
     text-align: center;
-    color: #228B22;
+    color: #218721;
     margin-top: 80px;
     margin-left:2.5vw;
     margin-right:2.5vw;
 }
 h3{
     text-align: center;
-    color: #228B22;
+    color: #218721;
     margin-left:2.5vw;
     margin-right:2.5vw;
     margin-bottom: 10px;
@@ -29,6 +29,7 @@ select{
     margin-right: 7.5vw;
 }
 iframe{
+    color:#fff;
     grid-column: 1;
     width: 100%;
     height: 80vh;
@@ -60,10 +61,10 @@ button{
     margin-bottom: 1vh;
 } 
 button:hover{
-    background-color: #228B22;
+    background-color: #218721;
 }
 button:focus{
-    background-color: #228B22;
+    background-color: #218721;
 }
 label{
     font-size: 16pt;
