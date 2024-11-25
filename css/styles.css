@@ -7,13 +7,12 @@
 body {
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
-  background-color: #218721;
-  color: #218721;
+  background-color: rgb(7, 64, 134);
+  color: rgb(7, 64, 134);
 }
 
 header {
-  background-color: #218721;
-  padding: 10px 0;
+  background-color: rgb(7, 64, 134)
   position: fixed;
   width: 100%;
   top: 0;
