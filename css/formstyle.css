@@ -75,7 +75,7 @@ select{
 input{
     font-size: 16pt;
 }
-@media (min-width: 790px)  {
+@media (min-width: 780px)  {
 .contact-grid{
     display: grid;
     grid-template-columns: 22.5vw  60vw;

@@ -51,7 +51,7 @@ header {
 }
 
 .nav-links a:hover {
-  color: #060707;
+  text-decoration: underline;
 }
 
 .menu-toggle {
