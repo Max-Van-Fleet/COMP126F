@@ -1,7 +1,7 @@
 body{
     background-color: #fff;
 }
-h1{
+h2{
     text-align: center;
     color: #218721;
     margin-top: 80px;
@@ -64,7 +64,7 @@ img{
     overflow: hidden;
 }
 .slide-show{
-    animation: NextSlide 60s steps(2, jump-none) 1s infinite;
+    animation: NextSlide 60s steps(1) 1s infinite;
 }
 .slide{
     width:100%;
