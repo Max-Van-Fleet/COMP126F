@@ -218,17 +218,33 @@ header {
 
 .testimonial {
   margin-bottom: 20px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonialtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .testimonial p {
   font-size: 1.2rem;
   font-style: italic;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .testimonial h4 {
   margin-top: 10px;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.testimonial img {
+  margin: 12px;
+  width: 20%;
+  height: auto;
 }
 
 footer {
