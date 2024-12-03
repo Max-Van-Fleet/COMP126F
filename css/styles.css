@@ -39,7 +39,6 @@ header {
   font-weight: bold;
 }
 
-/* Default mobile-first styles (max-width: 768px) */
 .nav-links {
   list-style: none;
   display: flex;
@@ -86,7 +85,6 @@ header {
   margin: 4px 0;
 }
 
-/* Styles for larger screens (768px and up) */
 @media (min-width: 768px) {
   .nav-links {
     position: relative;
@@ -107,7 +105,6 @@ header {
     display: none;
   }
 }
-
 
 .hero {
   background-image: url('../images/loganshouse.jpg');
