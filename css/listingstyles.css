@@ -89,7 +89,7 @@ img{
         transform: translateY(0px);
     }
   }
-  @media (min-width: 800px)  {
+  @media (min-width: 768px)  {
     .listing-item{
         display: grid;
         grid-template-columns: 41.5vw 41.5vw;
