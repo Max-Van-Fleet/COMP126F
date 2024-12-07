@@ -269,6 +269,7 @@ footer {
 }
 .instagram{
   background-image: url("../images/instagram.svg");
+  /*taken from https://www.svgrepo.com/vectors/instagram/ which is free for comercial use*/
   background-size: 5vw 10vh;
   grid-column: 2;
   width:5vw;
@@ -277,6 +278,7 @@ footer {
 }
 .linkedin{
   background-image: url("../images/linkedin.svg");
+  /*taken fromhttps://www.svgrepo.com/vectors/linkedin/ which is free for comercial use*/
   background-size: 5vw 10vh;
   grid-column: 3;
   width:5vw;
@@ -285,6 +287,7 @@ footer {
 }
 .facebook{
   background-image: url("../images/facebook.svg");
+  /*taken from https://www.svgrepo.com/vectors/facebook/ which is free for comercial use*/
   background-size: 5vw 10vh;
   grid-column: 1;
   width:5vw;
